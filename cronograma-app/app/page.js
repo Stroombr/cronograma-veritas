@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { Logo } from "/Logo";
 
 // --- Componentes SVG Inline (Ícones Lucide-React-like) ---
 
@@ -1335,7 +1334,6 @@ export default function App() {
                     <h1 className="text-3xl font-extrabold text-[#008BE4]">
                         Cronograma de Atividades
                     </h1>
-                    <div className="mb-10 pt-2 pb-4 border-b border-b-white/10"><Logo /></div>
                 </div>
 
                 {/* Botões de Ação */}
