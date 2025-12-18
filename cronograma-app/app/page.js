@@ -306,7 +306,7 @@ const ActivityFormModal = ({
     const [formData, setFormData] = useState({
         // No modo de edição, esses campos são imutáveis, mas mantidos para o modo de criação.
         local: activityToEdit?.local || (uniqueLocals.length > 0 ? uniqueLocals[0][1] : ''),
-        estado: activityToEdit?.estado || (uniqueStates.length > 0 ? uniqueStates[0][1] : ''),
+        estado: activityToEdit?.estado || (uniqueStates.length > 0 ? uniqueStates[0] : ''),
         atividade: activityToEdit?.atividade || (uniqueActivities.length > 0 ? uniqueActivities[0][1] : ''),
 
         // CAMPOS QUE O USUÁRIO PODE EDITAR:
